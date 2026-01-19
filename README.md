@@ -16,6 +16,9 @@ The project uses a normalized relational design to reduce data redundancy:
 3. Database Configuration
    The pipeline defaults to user vineetsinha. If your local Postgres setup differs in .env
 
+4. Install requirements
+   pip install -r requirements.txt
+
 📑 How to Run
   1. Fetch Data: Downloads raw files from Kaggle.
      python src/fetch_data.py
@@ -31,3 +34,4 @@ The project uses a normalized relational design to reduce data redundancy:
   1. data_fetch.log: Tracks Kaggle API downloads.
   2. transformation.log: Tracks data cleaning and mapping issues.
   3. ingestion.log: Tracks database record counts and conflicts.
+
