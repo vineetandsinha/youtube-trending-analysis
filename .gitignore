@@ -1,0 +1,20 @@
+# Environments
+venv/
+.env
+
+# Kaggle/Secrets (NEVER push these)
+config/kaggle.json
+.kaggle/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
