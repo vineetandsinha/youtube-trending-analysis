@@ -23,10 +23,7 @@ from sqlalchemy.exc import SQLAlchemyError, OperationalError
 # Config & Logging
 # ------------------------------------------------------------------------------
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    "postgresql://vineetsinha@localhost:5432/youtube_db"
-)
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 RAW_DATA_DIR = "data/raw"
 
